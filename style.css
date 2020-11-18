@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  color: black;
+
+}
+#container
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#india,#ghana
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 50px;
+}
+#time1 {
+  font-size: 6rem;
+  /* 1rem = 16px total 8x16=128px */
+}
+#time2 {
+  font-size: 6rem;
+  /* 1rem = 16px total 8x16=128px */
+
+}
+h2 {
+  margin-bottom: 1rem;
+  
+  font-size: 3rem;
+}
+h2.grey,#name
+{
+font-weight: 100;  
+font-size: 1.5rem;
+}
+#name
+{
+  /* border-bottom: 1px dashed white; */
+}
+h3 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  opacity: 0.5;
+}

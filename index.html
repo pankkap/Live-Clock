@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live-Clock with Dynamic Greeting</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h2 class="grey">Welcome! I am <span id="name" contenteditable="true"></span></h2>
+    <h1 id="greeting"></h1>    
+    <h2 id="date"></h2>
+    <div id="container">
+      <div id="ghana">
+        <time id="time2"></time>
+        <h3>Time in Ghana</h3>
+      </div>
+
+      <div id="india">
+        <time id="time1"></time>
+        <h3>Time in India</h3>
+      </div>     
+    </div>
+    
+    <script src="main.js"></script>
+  </body>
+</html>
